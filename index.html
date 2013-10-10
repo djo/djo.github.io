@@ -1,37 +1,21 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="author" content="Andrew Djoga" />
-  <title>Andrew Djoga</title>
-  <link href="/favicon.png" rel="icon" type="image/png">
-  <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-32548085-1']);
-    _gaq.push(['_trackPageview']);
+---
+layout: default
+title: Andrew Djoga
+---
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-</head>
-<body>
-  <div class="content">
-    <img src="/images/photo.jpg">
-    <div class="title">
-      Andrew Djoga
-    </div>
-    <ul class="links">
-      <li><a href="https://github.com/Djo">github.com/Djo</a></li>
-      <li><a href="http://www.linkedin.com/in/djoga">linkedin.com/in/djoga</a></li>
-      <li><a href="http://www.slideshare.net/djoga">slideshare.net/djoga</a></li>
-      <li><a href="https://twitter.com/andrewdjo">twitter.com/andrewdjo</a></li>
-      <li><a href="http://www.flickr.com/photos/djoga/">flickr.com/photos/djoga</a></li>
-      <li class="contact"><a href="mailto:andrew.djoga@gmail.com">contact me</a></li>
-    </ul>    
-  </div>
-</body>
-</html>
+<ul>
+  <li><a href="https://github.com/Djo">github.com/Djo</a></li>
+  <li><a href="http://www.linkedin.com/in/djoga">linkedin.com/in/djoga</a></li>
+  <li><a href="http://www.slideshare.net/djoga">slideshare.net/djoga</a></li>
+  <li><a href="https://twitter.com/andrewdjo">twitter.com/andrewdjo</a></li>
+  <li><a href="http://www.flickr.com/photos/djoga/">flickr.com/photos/djoga</a></li>
+  <li><a href="mailto:andrew.djoga@gmail.com">contact me</a></li>
+</ul>
+
+<h3>
+  Recent Activity
+  <small><a href="/activity.html">view all</a></small>
+</h3>
+
+{% include activities.html count=10 %}
+{% include tags.html %}

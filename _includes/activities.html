@@ -1,0 +1,12 @@
+<ul>
+  {% for activity in site.activities limit: include.count %}
+    <li>
+      {{ activity.date }}<br>
+      {{ activity.text }}<br>
+      {{ activity.link.first }}: <a href="{{ activity.link.last }}">{{ activity.link.last }}</a><br>
+      {% for tag in activity.tags %}
+        {% include tag.html tag=tag %}
+      {% endfor %}
+    </li>
+  {% endfor %}
+</ul>

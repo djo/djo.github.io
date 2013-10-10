@@ -1,0 +1,8 @@
+/* humanstxt.org */
+
+
+/* About */
+  Andrew Djoga
+  Site: andrewdjoga.com
+  Twitter: @andrewdjo
+  Location: Ukraine

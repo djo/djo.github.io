@@ -1,0 +1,24 @@
+common_tags: ['administration', 'coursera', 'slideshare']
+language_tags: ['ruby', 'java', 'erlang']
+
+activities:
+  -
+    text: Dump a partition with fsarchiver.
+    date: 2013-09-11
+    link: ['Gist', 'https://gist.github.com/Djo/6424275']
+    tags: ['administration']
+  -
+    text: When you don't have time to read 'man tar'.
+    date: 2013-08-10
+    link: ['Gist', 'https://gist.github.com/Djo/6363570']
+    tags: ['administration']
+  -
+    text: Speed up capybara specs by setting user session directly in the app.
+    date: 2013-02-02
+    link: ['Gist', 'https://gist.github.com/Djo/5098749']
+    tags: ['ruby']
+  -
+    text: Simple README sample for a rails project.
+    date: 2013-01-02
+    link: ['Gist', 'https://gist.github.com/Djo/4530059']
+    tags: ['ruby']
