@@ -3,19 +3,48 @@ layout: default
 title: Andrew Djoga
 ---
 
-<ul>
-  <li><a href="https://github.com/Djo">github.com/Djo</a></li>
-  <li><a href="http://www.linkedin.com/in/djoga">linkedin.com/in/djoga</a></li>
-  <li><a href="http://www.slideshare.net/djoga">slideshare.net/djoga</a></li>
-  <li><a href="https://twitter.com/andrewdjo">twitter.com/andrewdjo</a></li>
-  <li><a href="http://www.flickr.com/photos/djoga/">flickr.com/photos/djoga</a></li>
-  <li><a href="mailto:andrew.djoga@gmail.com">contact me</a></li>
-</ul>
+<div class="links">
+  <h2>Andrew Djoga</h2>
+  <ul class="list-inline">
+    <li><a href="https://github.com/Djo" title="GitHub"><i class="icon-github-sign icon-2x"></i></a></li>
+    <li><a href="https://twitter.com/andrewdjo" title="Twitter"><i class="icon-twitter-sign icon-2x"></i></a></li>
+    <li><a href="http://www.flickr.com/photos/djoga" title="Flickr"><i class="icon-flickr icon-2x"></i></a></li>
+    <li><a href="http://www.linkedin.com/in/djoga" title="LinkedIn"><i class="icon-linkedin-sign icon-2x"></i></a></li>
+  </ul>
+</div>
 
-<h3>
-  Recent Activity
-  <small><a href="/activity.html">view all</a></small>
-</h3>
+<p>
+  Andrew Djoga is a full stack web engineer and works primarily on Ruby and JavaScript projects.
+  Whenever not thinking about the web development, Andrew can be found writing, contributing to
+  <a href="https://github.com/Djo">open-source</a> and posting pretty things to
+  <a href="http://www.flickr.com/photos/djoga">Flickr</a>. If you want to get in touch, send
+  <a href="mailto:andrew.djoga@gmail.com">an email</a>.
+</p>
 
-{% include activities.html count=10 %}
-{% include tags.html %}
+{% if site.posts.size > 0 %}
+  <div class="page-header">
+    <h4>Posts</h4>
+  </div>
+
+  <ul class="list-unstyled">
+    {% for post in site.posts %}
+      <li>
+        <p>
+          {{ post.date | date:"%Y-%m-%d" }} &raquo; &nbsp;
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+<div class="page-header">
+  <h4>
+    Recent Activity
+    <div class="pull-right">
+      <small><a href="/activity.html">view all</a></small>
+    </div>
+  </h4>
+</div>
+
+{% include activities.html count=6 %}

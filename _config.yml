@@ -1,24 +1,160 @@
-common_tags: ['administration', 'coursera', 'slideshare']
-language_tags: ['ruby', 'java', 'erlang']
+activity_tags:
+  - administration
+  - algorithms
+  - benchmark
+  - testing
+  - coursera
+  - slideshare
+  - erlang
+  - javascript
+  - jruby
+  - ruby
+  - scala
+  - backbonejs
+  - jekyll
+  - rails
+  - sinatra
+  - bash
+  - gem
 
 activities:
   -
+    text: Moved the blog to Jekyll
+    date: 2013-10-17
+    link: ['GitHub', 'https://github.com/Djo/djo.github.io']
+    tags: ['jekyll']
+  -
     text: Dump a partition with fsarchiver.
-    date: 2013-09-11
+    date: 2013-09-03
     link: ['Gist', 'https://gist.github.com/Djo/6424275']
     tags: ['administration']
   -
-    text: When you don't have time to read 'man tar'.
-    date: 2013-08-10
+    text: When you don't have time to read `man tar`.
+    date: 2013-08-28
     link: ['Gist', 'https://gist.github.com/Djo/6363570']
     tags: ['administration']
   -
+    text: Coursera's Statement of Accomplishment with Distinction from FPP in Scala course.
+    date: 2013-06-04
+    link: ['Sertificate', '/assets/scala_certificate.pdf']
+    tags: ['algorithms', 'coursera', 'scala']
+  -
+    text: Long-Polling site example on Erlang.
+    date: 2013-03-15
+    link: ['GitHub', 'https://github.com/Djo/kaede']
+    tags: ['erlang']
+  -
+    text: Implementation of Chicago Boss Tutorial.
+    date: 2013-03-13
+    link: ['GitHub', 'https://github.com/Djo/cbtutorial']
+    tags: ['erlang']
+  -
     text: Speed up capybara specs by setting user session directly in the app.
-    date: 2013-02-02
+    date: 2013-03-06
     link: ['Gist', 'https://gist.github.com/Djo/5098749']
+    tags: ['ruby', 'rails']
+  -
+    text: Some solutions of Google Code Jam problems.
+    date: 2013-02-26
+    link: ['GitHub', 'https://github.com/Djo/google-code-jam']
+    tags: ['algorithms', 'ruby']
+  -
+    text: Example of backup script to S3
+    date: 2013-02-25
+    link: ['Gist', 'https://gist.github.com/Djo/5028732']
+    tags: ['administration', 'bash']
+  -
+    text: Quick review of our time tracking software.
+    date: 2013-01-17
+    link: ['Slides', 'http://www.slideshare.net/djoga/controlling-16034683']
+    tags: ['slideshare', 'ruby', 'rails']
+  -
+    text: Simple README.md sample for a rails project.
+    date: 2013-01-14
+    link: ['Gist', 'https://gist.github.com/Djo/4530059']
+    tags: ['ruby', 'rails']
+  -
+    text: Example of how to use VisualSearch with DataTables.
+    date: 2013-01-01
+    link: ['GitHub', 'https://github.com/Djo/visualsearch-with-datatables']
+    tags: ['javascript', 'ruby', 'sinatra']
+  -
+    text: Helper to round a number to the desired multiple 0.5.
+    date: 2012-12-13
+    link: ['Gist', 'https://gist.github.com/Djo/4278129']
     tags: ['ruby']
   -
-    text: Simple README sample for a rails project.
-    date: 2013-01-02
-    link: ['Gist', 'https://gist.github.com/Djo/4530059']
+    text: Test script to profile requests with GC options in case you have only access into the console.
+    date: 2012-12-12
+    link: ['Gist', 'https://gist.github.com/Djo/4267589']
+    tags: ['benchmark', 'ruby', 'rails']
+  -
+    text: GC tuning notes.
+    date: 2012-12-05
+    link: ['Gist', 'https://gist.github.com/Djo/4214965']
+    tags: ['benchmark', 'ruby']
+  -
+    text: Upgrade to ruby 1.9 notes.
+    date: 2012-12-04
+    link: ['Gist', 'https://gist.github.com/Djo/4202644']
     tags: ['ruby']
+  -
+    text: Monitoring a background process on execution in the console.
+    date: 2012-04-04
+    link: ['Gist', 'https://gist.github.com/Djo/2301481']
+    tags: ['administration']
+  -
+    text: The Embedly Challenge solutions.
+    date: 2012-02-17
+    link: ['Gist', 'https://gist.github.com/Djo/1854177']
+    tags: ['algorithms', 'ruby']
+  -
+    text: Made a gem SimpleAnalytics which provides accessing Google Analytics Export Api.
+    date: 2012-01-24
+    link: ['GitHub', 'https://github.com/Djo/simple_analytics']
+    tags: ['ruby', 'gem']
+  -
+    text: Example of the reverse pagination with kaminari gem.
+    date: 2012-01-03
+    link: ['GitHub', 'https://github.com/Djo/reverse_kaminari']
+    tags: ['ruby', 'rails']
+  -
+    text: Example of the reverse pagination with will_paginate gem.
+    date: 2011-12-26
+    link: ['GitHub', 'https://github.com/Djo/reverse_will_paginate']
+    tags: ['ruby', 'rails']
+  -
+    text: Autoheight iframe helper.
+    date: 2011-12-13
+    link: ['Gist', 'https://gist.github.com/Djo/1471570']
+    tags: ['javascript']
+  -
+    text: Speed up your Capybara JS specs you can turn off jquery animation. In this case all animations will immediately set elements to their final state when called, rather than displaying an effect.
+    date: 2011-12-13
+    link: ['Gist', 'https://gist.github.com/Djo/1471512']
+    tags: ['rails', 'testing']
+  -
+    text: Created Yet Another Try Ruby. It allows you to run a github's gist in the ruby sandbox.
+    date: 2011-11-15
+    link: ['GitHub', 'https://github.com/Djo/rungist']
+    tags: ['jruby', 'sinatra', 'backbonejs']
+  -
+    text: Sinatra, Bundler, RSpec2 Example.
+    date: 2011-11-15
+    link: ['Gist', 'https://gist.github.com/Djo/1366658']
+    tags: ['ruby', 'sinatra', 'testing']
+  -
+    text: "Made a gem tokenie: Generation a friendly token randomically."
+    date: 2011-09-17
+    link: ['GitHub', 'https://github.com/Djo/tokenie']
+    tags: ['ruby', 'gem']
+  -
+    text: Example of application that can help to manage settings.
+    date: 2011-07-10
+    link: ['GitHub', 'https://github.com/Djo/configuration']
+    tags: ['ruby', 'rails']
+  -
+    text: Open-sourced an application that helps to collect private currency collections.
+    date: 2011-03-28
+    link: ['GitHub', 'https://github.com/Djo/Currencies']
+    tags: ['ruby', 'rails']

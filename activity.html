@@ -3,7 +3,11 @@ layout: default
 title: Activity
 ---
 
-<h3><a href="/activity.html">Activity</a></h3>
+<div class="page-header">
+  <h3>
+    <a href="/activity.html">Activity</a>
+    <small class='tag-title'></small>
+  </h3>
+</div>
 
 {% include activities.html count=site.activities.size %}
-{% include tags.html %}
