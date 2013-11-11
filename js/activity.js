@@ -13,9 +13,11 @@ $(function () {
 
   $(window).bind('hashchange', function () {
     var hash = window.location.hash.slice(1)
+
     if (!$.isEmptyObject(hash)) {
       filter(hash)
       setTitle(hash)
+      $("html, body").animate({ scrollTop: 0 })
     }
   })
 
