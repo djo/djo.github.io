@@ -69,6 +69,10 @@ hr {
   }
 }
 
+ul.activities {
+  font-size: 14px;
+}
+
 ul.activities > li {
   margin-bottom: 12px;
 }
