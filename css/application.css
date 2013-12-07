@@ -46,6 +46,10 @@ hr {
   height: 4px;
 }
 
+.footer {
+  font-size: 14px;
+}
+
 .links {
   margin-bottom: 30px;
   padding: 2px 0 0 0;
@@ -62,7 +66,7 @@ hr {
   text-decoration: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   .links {
     background: none;
     height: 105px;
