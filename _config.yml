@@ -19,17 +19,17 @@ activity_tags:
 
 activities:
   -
-    text: Open-sourced Basic Algorithms written in Ruby
+    text: Open-sourced Basic Algorithms written in Ruby.
     date: 2013-12-08
     link: ['GitHub', 'https://github.com/Djo/algorithms']
     tags: ['algorithms', 'ruby']
   -
-    text: Test MediaElement.js quizzes
+    text: Test MediaElement.js quizzes.
     date: 2013-11-27
     link: ['GitHub', 'https://github.com/Djo/mediaelement-quizzes']
     tags: ['javascript']
   -
-    text: Moved the blog to Jekyll
+    text: Moved the blog to Jekyll.
     date: 2013-10-17
     link: ['GitHub', 'https://github.com/Djo/djo.github.io']
     tags: ['jekyll']
