@@ -1,49 +1,31 @@
-<div class="row">
-  <div class="col-sm-10">
-    <ul class="activities list-unstyled">
-      {% for activity in site.activities limit: include.count %}
-        <li class="activity {{ activity.tags | join ' ' }}">
-          <div class="row">
-            <div class="col-sm-3 hidden-xs text-muted">{{ activity.date }} &raquo;</div>
-            <div class="col-sm-9">{{ activity.text }}</div>
-          </div>
+<ul class="activities">
+  {% for activity in site.activities limit: include.activity_count %}
+    <li class="activity {{ activity.tags | join ' ' }}">
+      <span class="date">
+        {{ activity.date | date: '%d %b %Y' }} &raquo;
+      </span>
 
-          <div class="row">
-            <div class="col-sm-9 col-sm-offset-3">
-              {{ activity.link.first }}:
-              <a href="{{ activity.link.last }}">{{ activity.link.last }}</a>
-            </div>
-          </div>
+      <a href="{{ activity.link }}">{{ activity.text }}</a>
 
-          <div class="row">
-            <div class="col-sm-9 col-sm-offset-3">
-              <ul class="list-inline">
-                {% for tag in activity.tags %}
-                  <li>{% include tag.html tag=tag %}</li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
-        </li>
-      {% endfor %}
+      <div class="tags">
+        {% for tag in activity.tags %}
+          {% include tag.html tag=tag %}
+        {% endfor %}
+      </div>
+    </li>
+  {% endfor %}
 
-      {% if include.count < site.activities.size %}
-        <li>
-          <div class="row more-activities">
-            <div class="col-sm-9 col-sm-offset-3">
-              <a href="/activity.html">more &raquo;</a>
-            </div>
-          </div>
-        </li>
-      {% endif %}
-    </ul>
-  </div>
+  {% if include.activity_count < site.activities.size %}
+    <li>
+      <a href="/activity.html">more &raquo;</a>
+    </li>
+  {% endif %}
+</ul>
 
-  <div class="col-sm-2">
-    <ul class="tags list-unstyled text-right">
-      {% for tag in site.activity_tags %}
-        <li><p>{% include tag.html tag=tag %}</p></li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
+<ul class="tags">
+  {% for tag in site.activity_tags limit: include.tag_count %}
+    <li>{% include tag.html tag=tag %}</li>
+  {% endfor %}
+</ul>
+
+<div class="clear"></div>

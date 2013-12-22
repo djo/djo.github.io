@@ -1,25 +1,18 @@
 $(function () {
-  var activities = $('ul.activities')
-  var tagTitle = $('.tag-title')
+  var $activities = $('ul.activities'),
+      $tagTitle = $('.tag-title'),
+      $body = $("html, body");
 
-  var filter = function (activity) {
-    $('.activity', activities).hide()
-    $('.activity.' + activity, activities).show()
-  }
+  $(window).bind('hashchange', toggleTag);
+  $(window).trigger('hashchange');
 
-  var setTitle = function (activity) {
-    tagTitle.html(activity)
-  }
+  function toggleTag() {
+    var activity = window.location.hash.slice(1);
+    if ($.isEmptyObject(activity)) return;
 
-  $(window).bind('hashchange', function () {
-    var hash = window.location.hash.slice(1)
-
-    if (!$.isEmptyObject(hash)) {
-      filter(hash)
-      setTitle(hash)
-      $("html, body").animate({ scrollTop: 0 })
-    }
-  })
-
-  $(window).trigger('hashchange')
+    $activities.find('.activity').hide();
+    $activities.find('.activity.' + activity).show();
+    $tagTitle.html(' &raquo; ' + activity);
+    $body.animate({ scrollTop: 0 });
+  };
 })

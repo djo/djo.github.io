@@ -4,11 +4,9 @@ title: Activity
 include_javascript: activity
 ---
 
-<div class="page-header">
-  <h3>
-    <a href="/activity.html">Activity</a>
-    <small class='tag-title'></small>
-  </h3>
-</div>
+<h2>
+  <a href="/activity.html">Activity</a>
+  <span class='tag-title'></span>
+</h2>
 
-{% include activities.html count=site.activities.size %}
+{% include activities.html activity_count=site.activities.size tag_count=site.activity_tags.size %}

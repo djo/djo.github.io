@@ -1,105 +1,162 @@
+/* Idea of the layout was stolen from https://github.com/phinze/phinze.github.io */
+
+html {
+  max-width: 44em;
+  min-width: 20em;
+  margin: 0 auto;
+  position: relative;
+}
+
 body {
-  padding-bottom: 20px;
-  border-top: solid 5px #cc7300;
-  font-size: 15px;
-  line-height: 1.5;
+  background-color: #f9f9f9;
+  font-family: 'Voces', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
 }
 
-a, a:hover {
-  color: #cc7300;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
 }
 
-h1, h2, h3, h4 {
-  color: #4c590a;
-  font-weight: 400;
+h1 {
+  font-size: 3em;
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
+h2 small {
+  float: right;
+  font-weight: normal;
 }
 
-.header {
-  margin: 30px 0;
-  font-family: Arial,sans-serif;
+p {
+  margin: 1em 0;
 }
 
-.page-header {
-  border-top: solid 5px #f2f1e2;
-  border-bottom: none;
-  padding-top: 7px;
-}
-
-.page-header h4 {
-  margin-bottom: 3px;
-}
-
-.page-header h3 {
-  margin-top: 12px;
-}
-
-hr {
-  margin-bottom: 10px;
-  color: #f2f1e2;
-  background-color: #f2f1e2;
-  height: 4px;
-}
-
-.footer {
-  font-size: 14px;
-}
-
-.links {
-  margin-bottom: 30px;
-  padding: 2px 0 0 0;
-  background: url(/assets/bg.jpg) no-repeat right top;
-  height: 213px;
-  font-size: 14px;
-}
-
-.links ul li {
-  padding-left: 0;
-}
-
-.links a:hover {
+a {
+  color: #4c57d8;
   text-decoration: none;
 }
 
-@media (max-width: 580px) {
-  .links {
-    background: none;
-    height: 105px;
-  }
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #4c57d8;
+}
+
+.clear {
+  clear: both;
+}
+
+.content {
+  text-align: left;
+  margin: 3em 1em;
+  line-height: 1.7em;  
+}
+
+.header {
+  border-bottom: solid #f0f0f0 1px;
+}
+
+.header img {
+  vertical-align: -20%;
+  height: 1.2em;
+  padding: 0 0.2em;
+}
+
+.header a {
+  color: #444;
+}
+
+.header a:hover {
+  text-decoration: none;
+}
+
+.footer {
+  font-size: 90%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.footer .contact {
+  float: left;
+  margin-right: 3em;
+}
+
+.footer .contact a {
+  color: #8085C1;
+}
+
+h2 .tag-title {
+  font-weight: normal;
 }
 
 ul.activities {
-  font-size: 14px;
-}
-
-ul.activities > li {
-  margin-bottom: 12px;
-}
-
-ul.activities li ul {
-  margin-top: 4px;
-}
-
-ul.activities li ul li {
+  float: left;
+  width: 80%;
+  margin-left: 0;
   padding-left: 0;
+  list-style: none;
 }
 
-.more-activities {
-  margin-top: 30px;
+ul.activities .activity {
+  margin-bottom: 0.5em;
 }
 
-@media (max-width: 767px) {
+ul.activities .activity .date {
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 90%;
+}
+
+ul.activities .activity .tags {
+  font-size: 90%;
+  color: #444;
+}
+
+ul.tags {
+  width: 20%;
+  float: left;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  font-size: 90%;
+  text-align: right;
+}
+
+.tags a {
+  display: inline-block;
+  padding: 0.2em 0.3em;
+  margin-bottom: 0.5em;
+  color: #444;
+  font-size: 90%;
+  line-height: 1.2em;
+  border-radius: 3px;
+  border: 1px solid #aaa;
+}
+
+.tags a:hover {
+  text-decoration: none;
+  border-color: #333;
+}
+
+@media (max-width: 640px) {
+  ul.activities {
+    float: none;
+    width: 100%;
+  }
+
   ul.tags {
-    margin-top: 50px;
+    float: none;
+    width: 100%;
     text-align: left;
   }
 
   ul.tags li {
     display: inline-block;
+  }
+
+  ul.tags a {
+    margin-right: 0.1em;
   }
 }
