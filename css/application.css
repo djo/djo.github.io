@@ -9,7 +9,8 @@ html {
 
 body {
   background-color: #f9f9f9;
-  font-family: 'Voces', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -47,10 +48,18 @@ a:visited {
   clear: both;
 }
 
+.separator {
+  display: inline-block;
+  margin-right: 0.3em;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 90%;
+  color: #555;
+}
+
 .content {
   text-align: left;
   margin: 3em 1em;
-  line-height: 1.7em;  
+  line-height: 1.5em;
 }
 
 .header {
@@ -72,11 +81,11 @@ a:visited {
 }
 
 .footer {
+  overflow: hidden;
+  margin-top: 2em;
+  border-top: 4px solid #eee;
   font-size: 90%;
   color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
 }
 
 .footer .contact {
@@ -98,6 +107,12 @@ ul.activities {
   margin-left: 0;
   padding-left: 0;
   list-style: none;
+  line-height: 1.4em;
+}
+
+ul.activities .more {
+  display: inline-block;
+  margin-top: 0.5em;
 }
 
 ul.activities .activity {
@@ -105,39 +120,38 @@ ul.activities .activity {
 }
 
 ul.activities .activity .date {
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 90%;
-}
-
-ul.activities .activity .tags {
-  font-size: 90%;
-  color: #444;
+  font-family: monospace;
+  font-size: 95%;
+  color: #555;
 }
 
 ul.tags {
-  width: 20%;
   float: left;
+  width: 20%;
   margin-left: 0;
   padding-left: 0;
   list-style: none;
-  font-size: 90%;
   text-align: right;
+}
+
+ul.tags a {
+  margin-bottom: 0.5em;
 }
 
 .tags a {
   display: inline-block;
-  padding: 0.2em 0.3em;
-  margin-bottom: 0.5em;
-  color: #444;
-  font-size: 90%;
-  line-height: 1.2em;
+  padding: 2px 3px 3px;
   border-radius: 3px;
   border: 1px solid #aaa;
+  font-size: 80%;
+  line-height: 1.2em;
+  color: #444;
 }
 
 .tags a:hover {
   text-decoration: none;
   border-color: #333;
+  color: #000;
 }
 
 @media (max-width: 640px) {
@@ -157,6 +171,6 @@ ul.tags {
   }
 
   ul.tags a {
-    margin-right: 0.1em;
+    margin-right: 0.2em;
   }
 }

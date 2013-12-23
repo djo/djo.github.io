@@ -1,12 +1,9 @@
 <ul class="activities">
   {% for activity in site.activities limit: include.activity_count %}
     <li class="activity {{ activity.tags | join ' ' }}">
-      <span class="date">
-        {{ activity.date | date: '%d %b %Y' }} »
-      </span>
-
+      <span class="date">{{ activity.date | date: '%d %b %Y' }}</span>
+      <span class="separator">»</span>
       <a href="{{ activity.link }}">{{ activity.text }}</a>
-
       <div class="tags">
         {% for tag in activity.tags %}
           {% include tag.html tag=tag %}
@@ -17,7 +14,7 @@
 
   {% if include.activity_count < site.activities.size %}
     <li>
-      <a href="/activity.html">more »</a>
+      <a class="more" href="/activity.html">more »</a>
     </li>
   {% endif %}
 </ul>
