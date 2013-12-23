@@ -2,7 +2,7 @@
   {% for activity in site.activities limit: include.activity_count %}
     <li class="activity {{ activity.tags | join ' ' }}">
       <span class="date">
-        {{ activity.date | date: '%d %b %Y' }} &raquo;
+        {{ activity.date | date: '%d %b %Y' }} »
       </span>
 
       <a href="{{ activity.link }}">{{ activity.text }}</a>
@@ -17,7 +17,7 @@
 
   {% if include.activity_count < site.activities.size %}
     <li>
-      <a href="/activity.html">more &raquo;</a>
+      <a href="/activity.html">more »</a>
     </li>
   {% endif %}
 </ul>
