@@ -80,6 +80,19 @@ a:visited {
   text-decoration: none;
 }
 
+.header a.contact {
+  display: none;
+  vertical-align: middle;
+  background-image: url('/images/mail.png');
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+}
+
+.header:hover a.contact {
+  display: inline-block;
+}
+
 .footer {
   overflow: hidden;
   margin-top: 2em;
@@ -155,6 +168,10 @@ ul.tags a {
 }
 
 @media (max-width: 640px) {
+  .header a.contact {
+    display: inline-block;
+  }
+
   ul.activities {
     float: none;
     width: 100%;
