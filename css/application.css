@@ -66,8 +66,12 @@ a:visited {
   border-bottom: solid #f0f0f0 1px;
 }
 
+.header h1 {
+  margin-bottom: 0.5em;
+}
+
 .header img {
-  vertical-align: -20%;
+  vertical-align: -40%;
   height: 1.2em;
   padding: 0 0.2em;
 }
@@ -76,7 +80,7 @@ a:visited {
   color: #444;
 }
 
-.header a:hover {
+.header a.contact:hover {
   text-decoration: none;
 }
 
@@ -168,6 +172,10 @@ ul.tags a {
 }
 
 @media (max-width: 640px) {
+  .content {
+    margin-top: 1.5em;
+  }
+
   .header a.contact {
     display: inline-block;
   }
