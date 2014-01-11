@@ -3,7 +3,7 @@
     <li class="activity {{ activity.tags | join ' ' }}">
       <span class="date">{{ activity.date | date: '%d %b %Y' }}</span>
       <span class="separator">»</span>
-      <a href="{{ activity.link }}">{{ activity.text }}</a>
+      <a href="{{ activity.link }}" target="_blank">{{ activity.text }}</a>
       <div class="tags">
         {% for tag in activity.tags %}
           {% include tag.html tag=tag %}
