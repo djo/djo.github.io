@@ -1,6 +1,3 @@
-name: Djoga
-description: "Full Stack Software Engineer, interested in open web technologies, programming languages and methodologies."
-
 activity_tags:
   - administration
   - algorithms
@@ -72,7 +69,7 @@ activities:
     link: 'https://github.com/Djo/google-code-jam'
     tags: ['algorithms', 'ruby']
   -
-    text: Example of backup script to S3
+    text: Example of backup script to S3.
     date: 2013-02-25
     link: 'https://gist.github.com/Djo/5028732'
     tags: ['administration', 'bash']
@@ -142,10 +139,10 @@ activities:
     link: 'https://gist.github.com/Djo/1471570'
     tags: ['javascript']
   -
-    text: Speed up your Capybara JS specs you can turn off jquery animation. In this case all animations will immediately set elements to their final state when called, rather than displaying an effect.
+    text: Speed up of capybara js specs by turning off jquery animation.
     date: 2011-12-13
     link: 'https://gist.github.com/Djo/1471512'
-    tags: ['rails', 'testing']
+    tags: ['ruby', 'rails', 'javascript', 'testing']
   -
     text: Created Yet Another Try Ruby. It allows you to run a github's gist in the ruby sandbox.
     date: 2011-11-15
