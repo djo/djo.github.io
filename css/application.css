@@ -7,7 +7,7 @@ body {
   color: #333333;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-weight: 400;
   color: #4c590a;
 }
@@ -41,6 +41,7 @@ hr {
 }
 
 div.header {
+  font-family: Arial, sans-serif;
   font-size: 18px;
   margin: 20px 0;
   color: #999;
@@ -85,16 +86,44 @@ h3 small {
   font-weight: normal;
 }
 
+/* Posts styles */
+
+div.date {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+span.f {
+  font-family: monospace;
+  font-style: italic;
+}
+
+/* Activities styles */
+
 h2 .tag-title {
   font-weight: normal;
+}
+
+ul span.date {
+  font-family: monospace;
+  font-size: 14px;
+  color: #555;
+}
+
+ul span.separator {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+ul.posts, ul.activities {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 ul.activities {
   float: left;
   width: 80%;
-  margin-left: 0;
-  padding-left: 0;
-  list-style: none;
 }
 
 ul.activities .more {
@@ -104,17 +133,6 @@ ul.activities .more {
 
 ul.activities .activity {
   margin-bottom: 5px;
-}
-
-ul.activities .activity .date {
-  font-family: monospace;
-  font-size: 14px;
-  color: #555;
-}
-
-ul.activities .activity .separator {
-  display: inline-block;
-  margin-right: 5px;
 }
 
 ul.tags {
@@ -145,6 +163,8 @@ ul.tags a {
   border-color: #333;
   color: #000;
 }
+
+/* Mobile styles */
 
 @media (max-width: 640px) {
   div.links {
