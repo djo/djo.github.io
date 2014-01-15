@@ -1,19 +1,20 @@
 activity_tags:
-  - administration
   - algorithms
-  - benchmark
+  - administration
   - testing
   - ruby
   - javascript
   - erlang
   - jruby
   - scala
+  - java
   - rails
   - sinatra
   - backbonejs
   - jekyll
   - bash
   - gem
+  - benchmark
   - coursera
   - slideshare
 
