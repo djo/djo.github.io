@@ -20,6 +20,11 @@ activity_tags:
 
 activities:
   -
+    text: "Implemented the classic problem of the Towers of Hanoi."
+    date: 2014-01-22
+    link: 'https://gist.github.com/Djo/8559163'
+    tags: ['algorithms', 'ruby']
+  -
     text: "Found a mistake in the Cracking Coding Interview book: loitering problem in the queue implementation."
     date: 2014-01-15
     link: 'https://gist.github.com/Djo/8433466'
