@@ -20,6 +20,11 @@ activity_tags:
 
 activities:
   -
+    text: "Published Time Tracking Extension for Chrome Web Store."
+    date: 2014-02-14
+    link: 'https://github.com/Djo/time-entry'
+    tags: ['javascript']
+  -
     text: "Simple Long Polling implementation based on Chicago Boss and Backbone.js."
     date: 2014-02-14
     link: 'https://github.com/Djo/kaede'
