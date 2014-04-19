@@ -15,20 +15,21 @@ activity_tags:
   - bash
   - gem
   - benchmark
+  - distributed-computing
   - coursera
   - slideshare
 
 activities:
   -
+    text: "Designed the Leader Election algorithm."
+    date: 2014-04-18
+    link: 'https://github.com/Djo/leader_election'
+    tags: ['algorithms', 'erlang', 'distributed-computing']
+  -
     text: "Published Time Tracking Extension for Chrome Web Store."
     date: 2014-02-14
     link: 'https://github.com/Djo/time-entry'
     tags: ['javascript']
-  -
-    text: "Simple Long Polling implementation based on Chicago Boss and Backbone.js."
-    date: 2014-02-14
-    link: 'https://github.com/Djo/kaede'
-    tags: ['erlang', 'backbonejs']
   -
     text: "Implemented the classic problem of the Towers of Hanoi."
     date: 2014-01-22
@@ -70,10 +71,10 @@ activities:
     link: '/assets/scala-certificate.pdf'
     tags: ['algorithms', 'coursera', 'scala']
   -
-    text: Long-Polling site example on Erlang.
+    text: Long Polling implementation based on Chicago Boss and Backbone.js.
     date: 2013-03-15
     link: 'https://github.com/Djo/kaede'
-    tags: ['erlang']
+    tags: ['erlang', 'backbonejs']
   -
     text: Implementation of Chicago Boss Tutorial.
     date: 2013-03-13
