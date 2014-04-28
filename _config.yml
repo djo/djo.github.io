@@ -1,7 +1,5 @@
 activity_tags:
   - algorithms
-  - administration
-  - testing
   - ruby
   - javascript
   - erlang
@@ -11,15 +9,18 @@ activity_tags:
   - rails
   - sinatra
   - backbonejs
-  - jekyll
-  - bash
-  - gem
-  - benchmark
+  - sys-admin
   - distributed-computing
-  - coursera
+  - testing
+  - benchmark
   - slideshare
 
 activities:
+  -
+    text: "Rails, Nginx, XSendfile, and X-Accel-Mapping."
+    date: 2014-04-28
+    link: 'https://gist.github.com/Djo/11374407'
+    tags: ['ruby', 'rails', 'sys-admin']
   -
     text: "Designed the Leader Election algorithm."
     date: 2014-04-18
@@ -54,22 +55,22 @@ activities:
     text: Moved the blog to Jekyll.
     date: 2013-10-17
     link: 'https://github.com/Djo/djo.github.io'
-    tags: ['jekyll']
+    tags: ['javascript']
   -
     text: Dump a partition with fsarchiver.
     date: 2013-09-03
     link: 'https://gist.github.com/Djo/6424275'
-    tags: ['administration']
+    tags: ['sys-admin']
   -
     text: When you don't have time to read `man tar`.
     date: 2013-08-28
     link: 'https://gist.github.com/Djo/6363570'
-    tags: ['administration']
+    tags: ['sys-admin']
   -
     text: Coursera's Statement of Accomplishment with Distinction from FPP in Scala course.
     date: 2013-06-04
     link: '/assets/scala-certificate.pdf'
-    tags: ['algorithms', 'coursera', 'scala']
+    tags: ['algorithms', 'scala']
   -
     text: Long Polling implementation based on Chicago Boss and Backbone.js.
     date: 2013-03-15
@@ -94,7 +95,7 @@ activities:
     text: Example of backup script to S3.
     date: 2013-02-25
     link: 'https://gist.github.com/Djo/5028732'
-    tags: ['administration', 'bash']
+    tags: ['sys-admin']
   -
     text: Quick review of our time tracking software.
     date: 2013-01-17
@@ -134,7 +135,7 @@ activities:
     text: Monitoring a background process on execution in the console.
     date: 2012-04-04
     link: 'https://gist.github.com/Djo/2301481'
-    tags: ['administration']
+    tags: ['sys-admin']
   -
     text: The Embedly Challenge solutions.
     date: 2012-02-17
@@ -144,7 +145,7 @@ activities:
     text: Made a gem SimpleAnalytics which provides accessing Google Analytics Export Api.
     date: 2012-01-24
     link: 'https://github.com/Djo/simple_analytics'
-    tags: ['ruby', 'gem']
+    tags: ['ruby']
   -
     text: Example of the reverse pagination with kaminari gem.
     date: 2012-01-03
@@ -179,7 +180,7 @@ activities:
     text: "Made a gem tokenie: Generation a friendly token randomically."
     date: 2011-09-17
     link: 'https://github.com/Djo/tokenie'
-    tags: ['ruby', 'gem']
+    tags: ['ruby']
   -
     text: Example of application that can help to manage settings.
     date: 2011-07-10
