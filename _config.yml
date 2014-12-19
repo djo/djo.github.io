@@ -9,13 +9,20 @@ activity_tags:
   - rails
   - sinatra
   - backbonejs
-  - distributed-computing
+  - kafka
+  - distributed
   - testing
   - servers
+  - chef
   - benchmark
   - slideshare
 
 activities:
+  -
+    text: "Apache Kafka MirrorMaker tool Chef recipe"
+    date: 2014-12-19
+    link: 'https://github.com/Djo/kafka-cookbook'
+    tags: ['kafka', 'chef', 'distributed']
   -
     text: "Setup Syck YAML engine in Ruby 2, Rails, DelayedJob."
     date: 2014-05-15
@@ -30,7 +37,7 @@ activities:
     text: "Designed the Leader Election algorithm."
     date: 2014-04-18
     link: 'https://github.com/Djo/leader_election'
-    tags: ['algorithms', 'erlang', 'distributed-computing']
+    tags: ['algorithms', 'erlang', 'distributed']
   -
     text: "Published Time Tracking Extension for Chrome Web Store."
     date: 2014-02-14
@@ -65,11 +72,6 @@ activities:
     text: Dump a partition with fsarchiver.
     date: 2013-09-03
     link: 'https://gist.github.com/Djo/6424275'
-    tags: ['servers']
-  -
-    text: When you don't have time to read `man tar`.
-    date: 2013-08-28
-    link: 'https://gist.github.com/Djo/6363570'
     tags: ['servers']
   -
     text: Coursera's Statement of Accomplishment with Distinction from FPP in Scala course.
