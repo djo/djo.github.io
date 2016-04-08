@@ -3,6 +3,7 @@ activity_tags:
   - ruby
   - javascript
   - erlang
+  - elixir
   - kafka
   - distributed
   - chef
@@ -16,17 +17,21 @@ activity_tags:
   - servers
   - docker
   - benchmark
-  - elixir
   - slideshare
 
 activities:
   -
-    text: "Handling of UNIX-signals in Erlang/Elixir for Docker installation"
+    text: "Tracking clicks & conversions by using Elixir."
+    date: 2016-04-08
+    link: 'http://www.slideshare.net/djoga/pubnative-tracker'
+    tags: ['erlang', 'elixir', 'slideshare']
+  -
+    text: "Handling of UNIX-signals in Erlang/Elixir for Docker installation."
     date: 2015-06-24
     link: 'https://gist.github.com/Djo/bfa9fa75928ce432ec51'
     tags: ['erlang', 'elixir', 'docker', 'servers']
   -
-    text: "Apache Kafka MirrorMaker tool Chef recipe"
+    text: "Apache Kafka MirrorMaker tool Chef recipe."
     date: 2014-12-19
     link: 'https://github.com/Djo/kafka-cookbook'
     tags: ['kafka', 'chef', 'distributed']
