@@ -1,10 +1,11 @@
 activity_tags:
   - algorithms
-  - ruby
-  - javascript
-  - erlang
-  - elixir
   - kafka
+  - ruby
+  - erlang
+  - machine-learning
+  - elixir
+  - javascript
   - distributed
   - chef
   - jruby
@@ -20,6 +21,11 @@ activity_tags:
   - slideshare
 
 activities:
+  -
+    text: "Machine Learning by Stanford University on Coursera. Certificate earned on April 10, 2016."
+    date: 2016-04-10
+    link: 'https://coursera.org/verify/SHC9YW4FKDA7'
+    tags: ['machine-learning']
   -
     text: "Tracking clicks & conversions by using Elixir."
     date: 2016-04-08
