@@ -1,4 +1,4 @@
-### Andrew Djoga - [andrewdjoga.com](http://andrewdjoga.com)
+### Andrew Djoga - [djo.github.io](https://djo.github.io)
 
 Development:
 
@@ -6,4 +6,4 @@ Development:
     bundle exec jekyll serve --watch
     # => Browse to http://localhost:4000
 
-Copyright (C) 2012-2013 [Andrew Djoga](http://andrewdjoga.com), released under the MIT license.
+Copyright (C) 2012-2018 [Andrew Djoga](https://djo.github.io), released under the MIT license.

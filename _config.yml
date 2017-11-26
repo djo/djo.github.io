@@ -1,218 +1,109 @@
-activity_tags:
-  - algorithms
-  - kafka
-  - ruby
-  - erlang
-  - machine-learning
-  - elixir
-  - javascript
-  - distributed
-  - chef
-  - jruby
-  - scala
-  - java
-  - rails
-  - sinatra
-  - backbonejs
-  - testing
-  - servers
-  - docker
-  - benchmark
-  - slideshare
-
 activities:
   -
-    text: "Machine Learning by Stanford University on Coursera. Certificate earned on April 10, 2016."
+    text: "Finished an amazing course Introduction to Public Speaking on Coursera, feel like I am ready to rock the world on stage!"
+    date: 2017-11-18
+    link: 'https://www.coursera.org/learn/public-speaking'
+  -
+    text: "Machine Learning by Stanford University on Coursera."
     date: 2016-04-10
     link: 'https://coursera.org/verify/SHC9YW4FKDA7'
-    tags: ['machine-learning']
   -
     text: "Tracking clicks & conversions by using Elixir."
     date: 2016-04-08
     link: 'http://www.slideshare.net/djoga/pubnative-tracker'
-    tags: ['erlang', 'elixir', 'slideshare']
   -
     text: "Handling of UNIX-signals in Erlang/Elixir for Docker installation."
     date: 2015-06-24
     link: 'https://gist.github.com/Djo/bfa9fa75928ce432ec51'
-    tags: ['erlang', 'elixir', 'docker', 'servers']
   -
     text: "Apache Kafka MirrorMaker tool Chef recipe."
     date: 2014-12-19
     link: 'https://github.com/Djo/kafka-cookbook'
-    tags: ['kafka', 'chef', 'distributed']
   -
     text: "Setup Syck YAML engine in Ruby 2, Rails, DelayedJob."
     date: 2014-05-15
     link: 'https://gist.github.com/Djo/c8a6ca3ff5661d226276'
-    tags: ['ruby', 'rails']
   -
     text: "Rails, Nginx, XSendfile, and X-Accel-Mapping."
     date: 2014-04-28
     link: 'https://gist.github.com/Djo/11374407'
-    tags: ['ruby', 'rails', 'servers']
   -
     text: "Designed the Leader Election algorithm."
     date: 2014-04-18
     link: 'https://github.com/Djo/leader_election'
-    tags: ['algorithms', 'erlang', 'distributed']
   -
     text: "Published Time Tracking Extension for Chrome Web Store."
     date: 2014-02-14
     link: 'https://github.com/Djo/time-entry'
-    tags: ['javascript']
   -
     text: "Implemented the classic problem of the Towers of Hanoi."
     date: 2014-01-22
     link: 'https://gist.github.com/Djo/8559163'
-    tags: ['algorithms', 'ruby']
   -
-    text: "Found a mistake in the Cracking Coding Interview book: loitering problem in the queue implementation."
+    text: "Mistake in the Cracking Coding Interview book: loitering problem in the queue implementation."
     date: 2014-01-15
     link: 'https://gist.github.com/Djo/8433466'
-    tags: ['algorithms', 'java']
   -
     text: Open-sourced Basic Algorithms written in Ruby.
     date: 2013-12-08
     link: 'https://github.com/Djo/algorithms'
-    tags: ['algorithms', 'ruby']
   -
     text: Test MediaElement.js quizzes.
     date: 2013-11-27
     link: 'https://github.com/Djo/mediaelement-quizzes'
-    tags: ['javascript']
-  -
-    text: Moved the blog to Jekyll.
-    date: 2013-10-17
-    link: 'https://github.com/Djo/djo.github.io'
-    tags: ['javascript']
   -
     text: Dump a partition with fsarchiver.
     date: 2013-09-03
     link: 'https://gist.github.com/Djo/6424275'
-    tags: ['servers']
   -
     text: Coursera's Statement of Accomplishment with Distinction from FPP in Scala course.
     date: 2013-06-04
     link: '/assets/scala-certificate.pdf'
-    tags: ['algorithms', 'scala']
   -
     text: Long Polling implementation based on Chicago Boss and Backbone.js.
     date: 2013-03-15
     link: 'https://github.com/Djo/kaede'
-    tags: ['erlang', 'backbonejs']
-  -
-    text: Implementation of Chicago Boss Tutorial.
-    date: 2013-03-13
-    link: 'https://github.com/Djo/cbtutorial'
-    tags: ['erlang']
-  -
-    text: Speed up capybara specs by setting user session directly in the app.
-    date: 2013-03-06
-    link: 'https://gist.github.com/Djo/5098749'
-    tags: ['ruby', 'rails']
   -
     text: Some solutions of Google Code Jam problems.
     date: 2013-02-26
     link: 'https://github.com/Djo/google-code-jam'
-    tags: ['algorithms', 'ruby']
   -
     text: Example of backup script to S3.
     date: 2013-02-25
     link: 'https://gist.github.com/Djo/5028732'
-    tags: ['servers']
   -
-    text: Quick review of our time tracking software.
+    text: Review of our time tracking software.
     date: 2013-01-17
     link: 'http://www.slideshare.net/djoga/controlling-16034683'
-    tags: ['slideshare', 'ruby', 'rails']
-  -
-    text: Simple README.md sample for a rails project.
-    date: 2013-01-14
-    link: 'https://gist.github.com/Djo/4530059'
-    tags: ['ruby', 'rails']
   -
     text: Example of how to use VisualSearch with DataTables.
     date: 2013-01-01
     link: 'https://github.com/Djo/visualsearch-with-datatables'
-    tags: ['javascript', 'ruby', 'sinatra']
-  -
-    text: Helper to round a number to the desired multiple 0.5.
-    date: 2012-12-13
-    link: 'https://gist.github.com/Djo/4278129'
-    tags: ['ruby']
-  -
-    text: Test script to profile requests with GC options in case you have only access into the console.
-    date: 2012-12-12
-    link: 'https://gist.github.com/Djo/4267589'
-    tags: ['benchmark', 'ruby', 'rails']
   -
     text: GC tuning notes.
     date: 2012-12-05
     link: 'https://gist.github.com/Djo/4214965'
-    tags: ['benchmark', 'ruby']
-  -
-    text: Upgrade to ruby 1.9 notes.
-    date: 2012-12-04
-    link: 'https://gist.github.com/Djo/4202644'
-    tags: ['ruby']
-  -
-    text: Monitoring a background process on execution in the console.
-    date: 2012-04-04
-    link: 'https://gist.github.com/Djo/2301481'
-    tags: ['servers']
   -
     text: The Embedly Challenge solutions.
     date: 2012-02-17
     link: 'https://gist.github.com/Djo/1854177'
-    tags: ['algorithms', 'ruby']
   -
-    text: Made a gem SimpleAnalytics which provides accessing Google Analytics Export Api.
+    text: Published gem SimpleAnalytics which provides accessing Google Analytics Export Api.
     date: 2012-01-24
     link: 'https://github.com/Djo/simple_analytics'
-    tags: ['ruby']
   -
     text: Example of the reverse pagination with kaminari gem.
     date: 2012-01-03
     link: 'https://github.com/Djo/reverse_kaminari'
-    tags: ['ruby', 'rails']
   -
     text: Example of the reverse pagination with will_paginate gem.
     date: 2011-12-26
     link: 'https://github.com/Djo/reverse_will_paginate'
-    tags: ['ruby', 'rails']
   -
-    text: Autoheight iframe helper.
-    date: 2011-12-13
-    link: 'https://gist.github.com/Djo/1471570'
-    tags: ['javascript']
-  -
-    text: Speed up of capybara js specs by turning off jquery animation.
-    date: 2011-12-13
-    link: 'https://gist.github.com/Djo/1471512'
-    tags: ['ruby', 'rails', 'javascript', 'testing']
-  -
-    text: Created Yet Another Try Ruby. It allows you to run a github's gist in the ruby sandbox.
+    text: Released Yet Another Try Ruby. It allows you to run a github's gist in the ruby sandbox.
     date: 2011-11-15
     link: 'https://github.com/Djo/rungist'
-    tags: ['jruby', 'sinatra', 'backbonejs']
   -
-    text: "Sinatra, Bundler, RSpec2 Example."
-    date: 2011-11-15
-    link: 'https://gist.github.com/Djo/1366658'
-    tags: ['ruby', 'sinatra', 'testing']
-  -
-    text: "Made a gem tokenie: Generation a friendly token randomically."
+    text: "Published gem tokenie: Generation a friendly token randomically."
     date: 2011-09-17
     link: 'https://github.com/Djo/tokenie'
-    tags: ['ruby']
-  -
-    text: Example of application that can help to manage settings.
-    date: 2011-07-10
-    link: 'https://github.com/Djo/configuration'
-    tags: ['ruby', 'rails']
-  -
-    text: Open-sourced an application that helps to collect private currency collections.
-    date: 2011-03-28
-    link: 'https://github.com/Djo/Currencies'
-    tags: ['ruby', 'rails']

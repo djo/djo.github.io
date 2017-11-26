@@ -3,37 +3,25 @@ layout: default
 title: Andrew Djoga
 ---
 
-<div class="links">
-  <h2>Andrew Djoga</h2>
-  <ul>
-    <li><a href="https://github.com/Djo" title="GitHub">GitHub.com/Djo</a></li>
-    <li><a href="http://www.linkedin.com/in/djoga" title="LinkedIn">LinkedIn.com/in/djoga</a></li>
-    <li><a href="https://twitter.com/andrewdjoga" title="Twitter">Twitter.com/andrewdjoga</a></li>
-    <li><a href="https://instagram.com/andrew.djoga" title="Instagram">Instagram.com/andrew.djoga</a></li>
+<section>
+  <p>
+    Hi, I'm Andrew Djoga, Software Engineer in Berlin.
+  </p>
+  <p>
+    You can find me on <a href="https://github.com/Djo" target="_blank">GitHub</a>, <a href="https://twitter.com/andrewdjoga" target="_blank">Twitter</a> and <a href="https://linkedin.com/in/djoga" target="_blank">LinkedIn</a>.
+  </p>
+  <p>
+    E-mail is the best way to get in touch with me: <a href="mailto:andrew.djoga@gmail.com">andrew.djoga@gmail.com</a>.
+  </p>
+</section>
+
+<section class="activity">
+  <ul class="log">
+    {% for activity in site.activities %}
+      <li>
+        <a href="{{ activity.link }}" target="_blank">{{ activity.text }}</a>
+        <div class="date">{{ activity.date | date: '%d %b %Y' }}</span>
+      </li>
+    {% endfor %}
   </ul>
-</div>
-
-<p>
-  Versatile software engineer primarily working in web development. Hobbies are biking and running, happy with my family. If you want to get in touch, send&nbsp;<a href="mailto:andrew.djoga@gmail.com">an&nbsp;email</a>.
-</p>
-
-{% if site.posts.size > 0 %}
-<h3 class="header">Posts</h3>
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li>
-      <span class="date">{{ post.date | date: '%d %b %Y' }}</span>
-      <span class="separator">»</span>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-{% endif %}
-
-<h3 class="header">
-  Recent Activity
-  <small><a href="/activity.html">view all</a></small>
-</h3>
-
-{% include activities.html activity_count=8 tag_count=15 %}
+</section>

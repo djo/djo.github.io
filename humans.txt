@@ -3,6 +3,6 @@
 
 /* About */
   Andrew Djoga
-  Site: andrewdjoga.com
-  Twitter: @andrewdjo
-  Location: Ukraine
+  Site: https://djo.github.io
+  Twitter: @andrewdjoga
+  Location: Berlin, Germany

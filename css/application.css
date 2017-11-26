@@ -1,20 +1,14 @@
 body {
-  margin: 0;
-  text-align: center;
-  border-top: solid 4px #cc7300;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 1.7;
-  color: #333333;
-}
-
-h1, h2, h3, h4 {
-  font-weight: 400;
-  color: #4c590a;
+  font-family: 'Lekton', 'Courier New', 'HelveticaNeue-Light', sans-serif;
+  color: #151311;
+  font-size: 18px;
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0
 }
 
 a {
-  color: #cc7300;
+  color: #2980B9;
   text-decoration: none;
 }
 
@@ -22,173 +16,34 @@ a:hover {
   text-decoration: underline;
 }
 
-hr {
-  margin-bottom: 10px;
-  color: #f2f1e2;
-  background-color: #f2f1e2;
-  height: 4px;
-  border: 0;
-}
-
-.clear {
-  clear: both;
-}
-
-.content {
-  margin: 10px auto;
-  padding: 0 15px;
-  max-width: 700px;
-  text-align: left;
-}
-
-div.header {
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-  margin: 20px 0;
-  color: #999;
-}
-
-div.footer {
-  margin-top: 20px;
-  padding-bottom: 10px;
-  font-size: 14px;
-  color: #777;
-}
-
-div.links {
-  height: 214px;
-  margin-bottom: 27px;
-  background: url(/images/bg.jpg) no-repeat right top;
-}
-
-div.links h2 {
-  padding-top: 10px;
-}
-
-div.links ul {
-  margin-left: 17px;
-  padding-left: 0;
-  list-style: square;
-  color: #777;
-}
-
-div.links ul li a {
-  font-size: 14px;
-}
-
-h2.header, h3.header {
-  border-top: solid 3px #f2f1e2;
-  padding-top: 10px;
-  margin: 35px 0 10px;
-}
-
-h3 small {
-  float: right;
+h1, h2, h3, h4 {
+  color: #151311;
+  font-size: 20px;
   font-weight: normal;
 }
 
-/* Posts styles */
-
-div.date {
-  color: #777;
-  margin-bottom: 10px;
+#content {
+  position: relative;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 45px 15px 15px 15px;
+  max-width: 640px
 }
 
-span.f {
-  font-family: monospace;
-  font-style: italic;
-}
-
-/* Activities styles */
-
-h2 .tag-title {
-  font-weight: normal;
-}
-
-ul span.date {
-  font-family: monospace;
-  font-size: 14px;
-  color: #555;
-}
-
-ul span.separator {
-  display: inline-block;
-  margin-right: 5px;
-}
-
-ul.posts, ul.activities {
+ul {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
 }
 
-ul.activities {
-  float: left;
-  width: 80%;
+ul .date {
+  font-size: 14px;
+  font-color: #666260;
+  margin-bottom: 10px;
 }
 
-ul.activities .more {
-  display: inline-block;
-  margin-top: 5px;
-}
-
-ul.activities .activity {
-  margin-bottom: 5px;
-}
-
-ul.tags {
-  float: left;
-  width: 20%;
-  margin-left: 0;
-  padding-left: 0;
-  list-style: none;
-  text-align: right;
-}
-
-ul.tags a {
-  margin-bottom: 0.5em;
-}
-
-.tags a {
-  display: inline-block;
-  padding: 2px 4px 3px;
-  border-radius: 3px;
-  border: 1px solid #aaa;
-  font-size: 80%;
-  line-height: 1.2;
-  color: #444;
-}
-
-.tags a:hover {
-  text-decoration: none;
-  border-color: #333;
-  color: #000;
-}
-
-/* Mobile styles */
-
-@media (max-width: 640px) {
-  div.links {
-    background: none;
-    height: auto;
-  }
-
-  ul.activities {
-    float: none;
-    width: 100%;
-  }
-
-  ul.tags {
-    float: none;
-    width: 100%;
-    text-align: left;
-  }
-
-  ul.tags li {
-    display: inline-block;
-  }
-
-  ul.tags a {
-    margin-right: 0.2em;
-  }
+section.activity {
+  margin-top: 50px;
+  border-top: solid 1px #151311;
 }
