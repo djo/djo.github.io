@@ -1,5 +1,9 @@
 activities:
   -
+    text: "Released implementation of Circuit Breaker in Go based on sync/atomic."
+    date: 2018-03-15
+    link: 'https://github.com/djo/circuit'
+  -
     text: "Finished an amazing course Introduction to Public Speaking on Coursera, feel like I am ready to rock the world on stage!"
     date: 2017-11-18
     link: 'https://www.coursera.org/learn/public-speaking'
