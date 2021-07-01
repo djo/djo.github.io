@@ -2,7 +2,6 @@
 
 
 /* About */
-  Andrew Djoga
+  Andrew Dzhoha
   Site: https://djo.github.io
-  Twitter: @andrewdjoga
   Location: Berlin, Germany

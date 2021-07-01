@@ -1,113 +1,37 @@
 activities:
   -
-    text: "Released implementation of Circuit Breaker in Go based on sync/atomic."
+    text: "Multi-armed bandit problem under delayed feedback: numerical experiments"
+    date: 2020-02-14
+    link: 'https://github.com/djo/delayed-bandit'
+  -
+    text: "Deep Learning Nanodegree Program"
+    date: 2019-04-10
+    link: '/assets/udacity-deep-learning-graduation.pdf'
+  -
+    text: "Circuit Breaker in Go based on sync/atomic"
     date: 2018-03-15
     link: 'https://github.com/djo/circuit'
   -
-    text: "Finished an amazing course Introduction to Public Speaking on Coursera, feel like I am ready to rock the world on stage!"
-    date: 2017-11-18
-    link: 'https://www.coursera.org/learn/public-speaking'
-  -
-    text: "Machine Learning by Stanford University on Coursera."
+    text: "Machine Learning by Stanford University on Coursera"
     date: 2016-04-10
     link: 'https://coursera.org/verify/SHC9YW4FKDA7'
   -
-    text: "Tracking clicks & conversions by using Elixir."
-    date: 2016-04-08
-    link: 'http://www.slideshare.net/djoga/pubnative-tracker'
-  -
-    text: "Handling of UNIX-signals in Erlang/Elixir for Docker installation."
-    date: 2015-06-24
-    link: 'https://gist.github.com/Djo/bfa9fa75928ce432ec51'
-  -
-    text: "Apache Kafka MirrorMaker tool Chef recipe."
-    date: 2014-12-19
-    link: 'https://github.com/Djo/kafka-cookbook'
-  -
-    text: "Setup Syck YAML engine in Ruby 2, Rails, DelayedJob."
-    date: 2014-05-15
-    link: 'https://gist.github.com/Djo/c8a6ca3ff5661d226276'
-  -
-    text: "Rails, Nginx, XSendfile, and X-Accel-Mapping."
-    date: 2014-04-28
-    link: 'https://gist.github.com/Djo/11374407'
-  -
-    text: "Designed the Leader Election algorithm."
+    text: "Leader Election algorithm in Erlang"
     date: 2014-04-18
     link: 'https://github.com/Djo/leader_election'
   -
-    text: "Published Time Tracking Extension for Chrome Web Store."
-    date: 2014-02-14
-    link: 'https://github.com/Djo/time-entry'
-  -
-    text: "Implemented the classic problem of the Towers of Hanoi."
-    date: 2014-01-22
-    link: 'https://gist.github.com/Djo/8559163'
-  -
-    text: "Mistake in the Cracking Coding Interview book: loitering problem in the queue implementation."
-    date: 2014-01-15
-    link: 'https://gist.github.com/Djo/8433466'
-  -
-    text: Open-sourced Basic Algorithms written in Ruby.
+    text: "Algorithms in Ruby"
     date: 2013-12-08
     link: 'https://github.com/Djo/algorithms'
   -
-    text: Test MediaElement.js quizzes.
-    date: 2013-11-27
-    link: 'https://github.com/Djo/mediaelement-quizzes'
-  -
-    text: Dump a partition with fsarchiver.
-    date: 2013-09-03
-    link: 'https://gist.github.com/Djo/6424275'
-  -
-    text: Coursera's Statement of Accomplishment with Distinction from FPP in Scala course.
+    text: "Functional Programming Principles in Scala on Coursera"
     date: 2013-06-04
     link: '/assets/scala-certificate.pdf'
   -
-    text: Long Polling implementation based on Chicago Boss and Backbone.js.
+    text: "HTTP Long Polling in Erlang and JavaScript"
     date: 2013-03-15
     link: 'https://github.com/Djo/kaede'
   -
-    text: Some solutions of Google Code Jam problems.
+    text: "Some solutions of Google Code Jam problems"
     date: 2013-02-26
     link: 'https://github.com/Djo/google-code-jam'
-  -
-    text: Example of backup script to S3.
-    date: 2013-02-25
-    link: 'https://gist.github.com/Djo/5028732'
-  -
-    text: Review of our time tracking software.
-    date: 2013-01-17
-    link: 'http://www.slideshare.net/djoga/controlling-16034683'
-  -
-    text: Example of how to use VisualSearch with DataTables.
-    date: 2013-01-01
-    link: 'https://github.com/Djo/visualsearch-with-datatables'
-  -
-    text: GC tuning notes.
-    date: 2012-12-05
-    link: 'https://gist.github.com/Djo/4214965'
-  -
-    text: The Embedly Challenge solutions.
-    date: 2012-02-17
-    link: 'https://gist.github.com/Djo/1854177'
-  -
-    text: Published gem SimpleAnalytics which provides accessing Google Analytics Export Api.
-    date: 2012-01-24
-    link: 'https://github.com/Djo/simple_analytics'
-  -
-    text: Example of the reverse pagination with kaminari gem.
-    date: 2012-01-03
-    link: 'https://github.com/Djo/reverse_kaminari'
-  -
-    text: Example of the reverse pagination with will_paginate gem.
-    date: 2011-12-26
-    link: 'https://github.com/Djo/reverse_will_paginate'
-  -
-    text: Released Yet Another Try Ruby. It allows you to run a github's gist in the ruby sandbox.
-    date: 2011-11-15
-    link: 'https://github.com/Djo/rungist'
-  -
-    text: "Published gem tokenie: Generation a friendly token randomically."
-    date: 2011-09-17
-    link: 'https://github.com/Djo/tokenie'

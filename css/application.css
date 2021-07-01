@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lekton', 'Courier New', 'HelveticaNeue-Light', sans-serif;
+  font-family: Avenir, Helvetica, sans-serif;
   color: #151311;
   font-size: 18px;
   line-height: 1.5em;
@@ -31,6 +31,10 @@ h1, h2, h3, h4 {
   max-width: 640px
 }
 
+p.contact {
+  word-spacing: 10px;
+}
+
 ul {
   list-style: none;
   margin-left: 0;
@@ -41,6 +45,12 @@ ul .date {
   font-size: 14px;
   font-color: #666260;
   margin-bottom: 10px;
+}
+
+ul .author {
+  font-size: 14px;
+  font-color: #666260;
+  margin-bottom: 0px;
 }
 
 section.activity {
