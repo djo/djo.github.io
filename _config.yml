@@ -1,5 +1,9 @@
 activities:
   -
+    text: "Data Analysis course notebooks in R"
+    date: 2022-04-21
+    link: 'https://github.com/djo/data-analysis'
+  -
     text: "Multi-armed bandit problem under delayed feedback: numerical experiments"
     date: 2020-02-14
     link: 'https://github.com/djo/delayed-bandit'
