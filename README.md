@@ -2,8 +2,6 @@
 
 Development:
 ```
-bundle install
+bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
-
-Copyright (C) 2012-2021 [Andrew Dzhoha](https://djo.github.io), released under the MIT license.

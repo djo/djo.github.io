@@ -23,15 +23,22 @@ title: Andrew Dzhoha
   <h3>Publications</h3>
   <ul class="log">
       <li>
-        <a href="http://www.pdmu.univ.kiev.ua/PDMU_2021/PDMU_2021_Skhidnytsia.pdf" target="_blank">XXXVI International Conference "Problems of decision making under uncertainties</a>
-        (Abstracts, p. 36)
-        <div class="author">A. Dzhoha, E. Lebedev</div>
-        <div class="date">{{ "14.05.2021" | date: '%d %b %Y' }}</div>
+        <a href="https://authors.elsevier.com/sd/article/S0377042723000766">Multi-armed bandit problem with online clustering as side information</a>,
+        Journal of Computational and Applied Mathematics, Elsevier.
+        <div class="author">Andrii Dzhoha, Iryna Rozora</div>
+        <div class="date">{{ "16.02.2023" | date: '%d %b %Y' }}</div>
       </li>
 
       <li>
-        <a href="/assets/bernoulli-multi-armed-bandit-problem-under-delayed-feedback.pdf" target="_blank">Bernoulli multi-armed bandit problem under delayed feedback</a>
-        (<a href="https://bphm.knu.ua/index.php/bphm/article/view/214" target="_blank">Journal</a>)
+        <a href="https://doi.org/10.17721/1812-5409.2021/3.1">Sequential resource allocation in a stochastic environment: an overview and numerical experiments [In Ukrainian]</a>,
+        Bulletin of Taras Shevchenko National University of Kyiv. Series: Physics and Mathematics.
+        <div class="author">Andrii Dzhoha</div>
+        <div class="date">{{ "07.12.2021" | date: '%d %b %Y' }}</div>
+      </li>
+
+      <li>
+        <a href="/assets/bernoulli-multi-armed-bandit-problem-under-delayed-feedback.pdf">Bernoulli multi-armed bandit problem under delayed feedback</a>,
+        Bulletin of Taras Shevchenko National University of Kyiv. Series: Physics and Mathematics.
         <div class="author">Andrii Dzhoha</div>
         <div class="date">{{ "19.02.2021" | date: '%d %b %Y' }}</div>
       </li>
@@ -43,7 +50,7 @@ title: Andrew Dzhoha
   <ul class="log">
     {% for activity in site.activities %}
       <li>
-        <a href="{{ activity.link }}" target="_blank">{{ activity.text }}</a>
+        <a href="{{ activity.link }}">{{ activity.text }}</a>
         <div class="date">{{ activity.date | date: '%d %b %Y' }}</div>
       </li>
     {% endfor %}
