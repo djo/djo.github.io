@@ -1,7 +1,0 @@
-/* humanstxt.org */
-
-
-/* About */
-  Andrew Dzhoha
-  Site: https://djo.github.io
-  Location: Berlin, Germany

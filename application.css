@@ -1,14 +1,13 @@
 body {
-  font-family: Avenir, Helvetica, sans-serif;
-  color: #151311;
-  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif;
+  color: #454545;
   line-height: 1.5em;
   padding: 0;
   margin: 0
 }
 
 a {
-  color: #2980B9;
+  color: #43829f;
   text-decoration: none;
 }
 
@@ -18,7 +17,6 @@ a:hover {
 
 h1, h2, h3, h4 {
   color: #151311;
-  font-size: 20px;
   font-weight: normal;
 }
 
@@ -27,12 +25,12 @@ h1, h2, h3, h4 {
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding: 45px 15px 15px 15px;
-  max-width: 640px
+  padding: 1rem 1rem 1rem 1rem;
+  max-width: 45rem;
 }
 
 p.contact {
-  word-spacing: 10px;
+  word-spacing: 0.5rem;
 }
 
 ul {
@@ -42,18 +40,19 @@ ul {
 }
 
 ul .date {
-  font-size: 14px;
+  font-size: 0.9rem;
   font-color: #666260;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 ul .author {
-  font-size: 14px;
+  font-size: 0.9rem;
   font-color: #666260;
   margin-bottom: 0px;
 }
 
 section.activity {
-  margin-top: 50px;
+  margin-top: 1rem;
+  padding-top: 1rem;
   border-top: solid 1px #151311;
 }
