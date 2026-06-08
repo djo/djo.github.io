@@ -1,9 +1,9 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif;
   color: #454545;
-  line-height: 1.5em;
+  line-height: 1.5;
   padding: 0;
-  margin: 0
+  margin: 0;
 }
 
 a {
@@ -21,11 +21,9 @@ h1, h2, h3, h4 {
 }
 
 #content {
-  position: relative;
-  height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
   max-width: 45rem;
 }
 
@@ -39,20 +37,39 @@ ul {
   padding-left: 0;
 }
 
+ul .author,
 ul .date {
   font-size: 0.9rem;
-  font-color: #666260;
-  margin-bottom: 1rem;
+  color: #666260;
 }
 
 ul .author {
-  font-size: 0.9rem;
-  font-color: #666260;
-  margin-bottom: 0px;
+  margin-bottom: 0;
+}
+
+ul .date {
+  margin-bottom: 1rem;
 }
 
 section.activity {
   margin-top: 1rem;
   padding-top: 1rem;
   border-top: solid 1px #151311;
+}
+
+section.activity h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.section-link {
+  font-size: 1rem;
+  color: #bbb;
+  text-decoration: none;
+}
+
+.section-link:hover {
+  color: #43829f;
+  text-decoration: underline;
 }
